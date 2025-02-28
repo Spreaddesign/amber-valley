@@ -128,15 +128,15 @@ body::-webkit-scrollbar {
     } */
 }
 
-/* @media screen and (min-width: 1400px) {
-    .cardgroup1 {
+@media screen and (min-width: 1400px) {
+    /* .cardgroup1 {
         bottom: 300px !important;
-    }
+    } */
     .heading1 {
-        font-size: 85pt;
+        font-size: 60pt;
     }
     .text1 {
-        font-size: 40pt;
+        font-size: 30pt;
     }
     .subimg2 {
         width: 981px !important;
@@ -153,12 +153,12 @@ body::-webkit-scrollbar {
         font-size: 28pt !important;
         top: -.5em !important;
     }
-} */
+}
 
-/* @media screen and (max-width: 1600px) and (min-height: 900px) {
-    .cardgroup1 {
+@media screen and (max-width: 1600px) and (min-height: 900px) {
+    /* .cardgroup1 {
         bottom: 300px !important;
-    }
+    } */
     .heading1 {
         font-size: 65pt !important;
     }
@@ -169,17 +169,17 @@ body::-webkit-scrollbar {
         width: 781px !important;
     }
     .s3textgroup {
-        padding: 20px 50px 20px 50px !important;
+        padding: 45px 50px 45px 50px !important;
     }
     .s3heading {
         font-size: 50pt !important;
     }
     .s3text {
         position: relative;
-        font-size: 30pt !important;
+        font-size: 28pt !important;
         top: .5em !important;
     }
-} */
+}
 
 /* .heading2 {
     text-transform: uppercase;
