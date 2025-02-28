@@ -141,10 +141,10 @@ body::-webkit-scrollbar {
     .subimg2 {
         width: 981px !important;
     }
-    .s3textgroup {
+    /* .s3textgroup {
         padding: 2px 50px 2px 50px !important;
-    }
-    .s3heading {
+    } */
+    /* .s3heading {
         font-size: 68pt !important;
         margin-top: .25em;
     }
@@ -152,7 +152,7 @@ body::-webkit-scrollbar {
         position: relative;
         font-size: 28pt !important;
         top: -.5em !important;
-    }
+    } */
 }
 
 @media screen and (max-width: 1600px) and (min-height: 900px) {
@@ -168,7 +168,7 @@ body::-webkit-scrollbar {
     .subimg2 {
         width: 781px !important;
     }
-    .s3textgroup {
+    /* .s3textgroup {
         padding: 45px 50px 45px 50px !important;
     }
     .s3heading {
@@ -178,7 +178,7 @@ body::-webkit-scrollbar {
         position: relative;
         font-size: 28pt !important;
         top: .5em !important;
-    }
+    } */
 }
 
 /* .heading2 {
