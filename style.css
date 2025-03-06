@@ -451,8 +451,6 @@ body::-webkit-scrollbar {
     text-transform: uppercase;
 }
 
-
-
 .mob-section3 {
     display: flex;
     flex-direction: column;
@@ -499,7 +497,7 @@ body::-webkit-scrollbar {
 }
 
 .s3mobtext {
-    font-size: 12px;
+    font-size: 11px;
     margin-top: -.5em;
     width: 12em;
 }
