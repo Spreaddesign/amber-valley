@@ -486,14 +486,14 @@ body::-webkit-scrollbar {
 }
 
 .s3mobtext {
-    font-size: 13px;
+    font-size: 12.5px;
     margin-top: -.5em;
     width: 12em;
 }
 
 .s3mobimage {
     height: 197px;
-    width: 105%;
+    width: 101%;
 }
 
 .mob-section4 {
