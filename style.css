@@ -506,6 +506,7 @@ body::-webkit-scrollbar {
 
 .s3mobimage {
     height: 197px;
+    width: auto;
 /*     width: 101%; */
 }
 
