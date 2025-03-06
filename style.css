@@ -425,6 +425,17 @@ body::-webkit-scrollbar {
     outline: none;
 }
 
+.mob-radio-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: -.5em;
+    margin-bottom: .25em;
+}
+
+.mob-radio-box {
+    font-size: 12px;
+}
+
 .mobbutton {
     width: auto;
     height: 50px;
@@ -440,16 +451,7 @@ body::-webkit-scrollbar {
     text-transform: uppercase;
 }
 
-.mob-radio-container {
-    display: flex;
-    flex-direction: column;
-    margin-left: -.5em;
-    margin-bottom: .25em;
-}
 
-.mob-radio-box {
-    font-size: 12px;
-}
 
 .mob-section3 {
     display: flex;
@@ -497,9 +499,9 @@ body::-webkit-scrollbar {
 }
 
 .s3mobtext {
-    font-size: 13px;
+    font-size: 12px;
     margin-top: -.5em;
-    width: 8em;
+    width: 12em;
 }
 
 .s3mobimage {
