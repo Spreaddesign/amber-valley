@@ -503,7 +503,7 @@ body::-webkit-scrollbar {
 }
 
 .s3mobimage {
-    height: 177px;
+    height: auto;
     /* height: 197px; */
     width: 101%;
 }
