@@ -484,7 +484,7 @@ body::-webkit-scrollbar {
 
 .mob-radio-label {
     position: relative;
-    top: -.1em;
+    top: -.05em;
 }
 
 .mobbutton {
