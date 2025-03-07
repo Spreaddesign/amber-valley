@@ -433,8 +433,6 @@ body::-webkit-scrollbar {
 }
 
 .mob-radio-box {
-    display: flex;
-    flex-direction: row;
     font-size: 13px;
 }
 
