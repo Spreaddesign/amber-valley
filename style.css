@@ -214,6 +214,7 @@ body::-webkit-scrollbar {
     padding: 40px;
     background: #fff;
     border-radius: 10px;
+    font-family: var(--roboto);
     box-shadow: -.001em -.001em 1em .01em #80808080;
 }
 
@@ -402,6 +403,7 @@ body::-webkit-scrollbar {
 .mobregform {
     display: flex;
     flex-direction: column;
+    font-family: var(--roboto);
 }
 
 .mobformheading {
