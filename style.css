@@ -1,4 +1,4 @@
-@import url(./fonts/roboto.css);
+ @import url(./fonts/roboto.css);
 
 :root {
     --roboto: 'Roboto';
@@ -438,7 +438,7 @@ body::-webkit-scrollbar {
 
 .mob-radio-label {
     position: relative;
-    top: .85em;
+    top: -.5em;
 }
 
 .mobbutton {
