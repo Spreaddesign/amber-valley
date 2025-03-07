@@ -231,7 +231,6 @@ body::-webkit-scrollbar {
     padding-left: .9em;
     background: rgba(128, 128, 128, 0.05);
     border: .01em solid #80808080;
-    font-family: var(--roboto);
 }
 
 .textbox:focus {
@@ -403,7 +402,6 @@ body::-webkit-scrollbar {
 .mobregform {
     display: flex;
     flex-direction: column;
-    font-family: var(--roboto);
 }
 
 .mobformheading {
@@ -440,7 +438,7 @@ body::-webkit-scrollbar {
 
 .mob-radio-label {
     position: relative;
-    top: 1.5em;
+    top: .85em;
 }
 
 .mobbutton {
