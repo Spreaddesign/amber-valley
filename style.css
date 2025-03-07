@@ -1,4 +1,4 @@
- @import url(./fonts/roboto.css);
+@import url(./fonts/roboto.css);
 
 :root {
     --roboto: 'Roboto';
@@ -362,6 +362,50 @@ body::-webkit-scrollbar {
     }
 }
 
+@media screen and (max-width: 992px) and (orientation: landscape) {
+    .mob-landscape-mode {
+        display: flex !important;
+    }
+    .main {
+        display: none !important;
+    }
+    .main-mob {
+        display: none !important;
+    }
+}
+
+.mob-landscape-mode {
+    display: none;
+    flex-direction: column;
+    position: fixed;
+    align-items: center;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    justify-content: center;
+}
+
+.mob-limg {
+    height: 10em;
+    animation: mobile-rotate 2.5s steps(50) infinite;
+    transition: 2.5s ease-out;
+}
+
+.mob-lheading {
+    font-size: 2.5em;
+    color: #7C1646;
+}
+
+@keyframes mobile-rotate {
+    20% {
+        transform: rotate(-96deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
 .main-mob {
     display: none;
     background: #fff;
@@ -433,12 +477,12 @@ body::-webkit-scrollbar {
 }
 
 .mob-radio-box {
-    font-size: 14px;
+    font-size: 14.25px;
 }
 
 .mob-radio-label {
     position: relative;
-    top: -.2em;
+    top: -.1em;
 }
 
 .mobbutton {
@@ -502,7 +546,7 @@ body::-webkit-scrollbar {
 }
 
 .s3mobtext {
-    font-size: 11.5px;
+    font-size: 12px;
     margin-top: -.5em;
     width: 12em;
 }
