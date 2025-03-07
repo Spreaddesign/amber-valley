@@ -214,7 +214,6 @@ body::-webkit-scrollbar {
     padding: 40px;
     background: #fff;
     border-radius: 10px;
-    font-family: var(--roboto);
     box-shadow: -.001em -.001em 1em .01em #80808080;
 }
 
@@ -232,6 +231,7 @@ body::-webkit-scrollbar {
     padding-left: .9em;
     background: rgba(128, 128, 128, 0.05);
     border: .01em solid #80808080;
+    font-family: var(--roboto);
 }
 
 .textbox:focus {
